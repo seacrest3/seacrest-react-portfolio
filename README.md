@@ -95,7 +95,7 @@ TThe following image shows the web application's appearance and functionality:
 
 TA, a Web Developer, reviews the code, providing feedback on errors and making sure that all of the acceptance criteria have been met.
 
-* [The URL of the deployed application.](https://seacrest3.github.io/Bootstrap-Portfolio/)
+* [The URL of the deployed application.](https://seacrest3.github.io/seacrest-react-portfolio/)
 
 * [The URL of the GitHub repository.](https://github.com/seacrest3/seacrest-react-portfolio.git)
 
