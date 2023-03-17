@@ -1,6 +1,6 @@
 # React Portfolio
 
-This application uses React to create a scaffolding of my portfolio sites.
+This application uses React to create a scaffolding of portfolio sites.
 
 ## Description
 
