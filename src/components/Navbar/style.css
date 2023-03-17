@@ -1,0 +1,33 @@
+nav.navbar.navbar-default {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  padding-left: 1rem;
+}
+
+.customNav {
+  width: 100%;
+  background: url("./transparency.png");
+  background-size: cover;
+  background-color: transparent !important;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+}
+
+.navbar-nav {
+  font-size: large;
+  margin-left: auto;
+}
+
+.nav-item {
+  margin: 0px 1.5rem;
+}
+
+a {
+  color: white !important;
+}
+
+a:hover {
+  color: #fcbd20 !important;
+}
