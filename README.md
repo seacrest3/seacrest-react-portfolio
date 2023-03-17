@@ -26,71 +26,60 @@ AS A web developer, I WANT to practice my web development skills by building a p
 
 ## Technical Acceptance Criteria
 
-Here are the critical requirements necessary to develop my portfolio of work:
+* Technologies that must be used:
+  * [ ] React
+  * [ ] Navigation with `React Router`, dynamic rendering, or another third part router
+* Your portfolio **must contain** the following information:
+  * [ ] Your name
+  * [ ] Links to your:
+    * [ ] GitHub Profile
+    * [ ] LinkedIn Page
+    * [ ] Email Address
+    * [ ] Phone Number - (optional)
+    * [ ] PDF version of your resume
+      * Your resume **must** contain up-to-date projects and professional experience
+    * [ ] A list of projects (Challenges or Projects). For each project, make sure you have the following:
+      * [ ] Project title
+      * [ ] Link to the deployed version
+      * [ ] Link to the GitHub repository
+      * [ ] GIF or screenshot of the deployed application
 
-1. Create a new GitHub repositories and name it `Bootstrap-Portfolio`.
+### Required Components
 
-2. Clone this repository to your computer.
+* At a minium, your portfolio must render these 6 components:
+  1. [ ] App
+  2. [ ] Header
+  4. [ ] Home
+  5. [ ] Project Gallery
+  6. [ ] Project
+  7. [ ] Contact
 
-3. Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.
-   
-   - Create a folder structure.
-
-     - Create a `index.html`.
-
-     - Create a `css` folder.
-
-       - Inside create a `style.css` file.
-
-   - Create an `images` folder.
-
-       - Place all your images in this folder.
-
-4. Using Bootstrap, recreate your portfolio site with the following items:
-
-   The website should include the following bootstrap components:
-
-    - A Navigation bar
-    
-    - A navigation menu at the top. Feel free to use bootstrap's navbar or create your own.
-
-      - Include links that are applicable to your portfolio.
-  
-        - Links should navigate to the appropriate sections 
-
-    - A hero section
-
-        - A jumbotron featuring your picture, your name, and any other information you'd like to include.
-
-    - A work section
-
-      - A section displaying your work in grid. 
-
-        - If you need to use placeholder image use: https://placehold.co/ 
-
-      - Use bootstrap cards for each project.
-
-        - The description should give a brief overview of the work.
-
-      - Each project will eventually link to your class project work!
-
-    - A skills section
-
-      - List out the skills you expect to learn from the bootcamp.
-
-    - An about / contact section.
-
-      - An "About Me" section in the same row.
-    
-    - A footer section.
-
-      - All hyperlinks should have a hover effect.
-
-      - All buttons should display a box shadow upon hover.
-
-5. Your Bootstrap solution should minimize use of media queries.
-
-6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
+### Required Component Content
+* [ ] App:
+  * [ ] Must be your top level component and render all necessary children components
+* [ ] Header:
+   * [ ] Must be rendered across the entire site
+   * [ ] Must Contain a Navbar
+* [ ] Project Gallery:
+  * [ ] Must render dynamically 6 instances of the Project component
+    * [ ] Be sure to store your project data in a JSON file and import it into your project
+* [ ] Project:
+   * [ ] Must be a reusable component that ingests JSON data as a props and renders a single instance for each project.
+   * [ ] Must utilize router props to properly render the right project based on user selection
+   * [ ] Must render the following info:
+     * [ ] Project title
+     * [ ] Link to the deployed version
+     * [ ] Link to the GitHub repository
+     * [ ] GIF or screenshot of the deployed application
+* [ ] Contact:
+  * [ ] Must have contact information
+  * [ ] Have a contact form for handling events
+* [ ] Home:
+  * This should be a welcome landing page that contains:
+     * [ ] Your Name
+     * [ ] A Headshot of you
+     * [ ] Your brand statement
+     * [ ] Some indication that this is your portfolio site
 
 ---
 
