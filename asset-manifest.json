@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/seacrest-react-portfolio/static/css/main.5bbca349.css",
+    "main.js": "/seacrest-react-portfolio/static/js/main.9feea0c2.js",
+    "static/media/online-reputation-management.jpg": "/seacrest-react-portfolio/static/media/online-reputation-management.7b3c2e0ba163be67e62b.jpg",
+    "static/media/picture-1a.png": "/seacrest-react-portfolio/static/media/picture-1a.342cad5037a2472ce34c.png",
+    "index.html": "/seacrest-react-portfolio/index.html",
+    "main.5bbca349.css.map": "/seacrest-react-portfolio/static/css/main.5bbca349.css.map",
+    "main.9feea0c2.js.map": "/seacrest-react-portfolio/static/js/main.9feea0c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bbca349.css",
+    "static/js/main.9feea0c2.js"
+  ]
+}
