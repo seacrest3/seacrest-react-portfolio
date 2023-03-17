@@ -1,70 +1,131 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application uses React to create a scaffolding of my portfolio sites.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. A web developer who have portfolios with deployed web applications are typically very successful in their career search after the boot camp. It is tasked to create a portfolio using React.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ ## Table of Contents
+  * [Description](#description)
+  * [User Story](#user-story)
+  * [Technical Acceptance Criteria](#technical-acceptance-criteria)
+  * [Mock-Up](#mock-up)
+  * [Review](#review)
+  * [Helpful Resources](#helpful-resources)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## User Story
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+AS A web developer, I WANT to practice my web development skills by building a portfolio of work using React which will become something I can showcase my skills in job search.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technical Acceptance Criteria
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Here are the critical requirements necessary to develop my portfolio of work:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Create a new GitHub repositories and name it `Bootstrap-Portfolio`.
 
-### `npm run eject`
+2. Clone this repository to your computer.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.
+   
+   - Create a folder structure.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+     - Create a `index.html`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+     - Create a `css` folder.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+       - Inside create a `style.css` file.
 
-## Learn More
+   - Create an `images` folder.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+       - Place all your images in this folder.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Using Bootstrap, recreate your portfolio site with the following items:
 
-### Code Splitting
+   The website should include the following bootstrap components:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    - A Navigation bar
+    
+    - A navigation menu at the top. Feel free to use bootstrap's navbar or create your own.
 
-### Analyzing the Bundle Size
+      - Include links that are applicable to your portfolio.
+  
+        - Links should navigate to the appropriate sections 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    - A hero section
 
-### Making a Progressive Web App
+        - A jumbotron featuring your picture, your name, and any other information you'd like to include.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    - A work section
 
-### Advanced Configuration
+      - A section displaying your work in grid. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+        - If you need to use placeholder image use: https://placehold.co/ 
 
-### Deployment
+      - Use bootstrap cards for each project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+        - The description should give a brief overview of the work.
 
-### `npm run build` fails to minify
+      - Each project will eventually link to your class project work!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    - A skills section
+
+      - List out the skills you expect to learn from the bootcamp.
+
+    - An about / contact section.
+
+      - An "About Me" section in the same row.
+    
+    - A footer section.
+
+      - All hyperlinks should have a hover effect.
+
+      - All buttons should display a box shadow upon hover.
+
+5. Your Bootstrap solution should minimize use of media queries.
+
+6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
+
+---
+
+## Mock-Up
+
+TThe following image shows the web application's appearance and functionality:
+
+![Image of the React Portfolio](./public/images/mockup.png)
+
+---
+
+## Review
+
+TA, a Web Developer, reviews the code, providing feedback on errors and making sure that all of the acceptance criteria have been met.
+
+* [The URL of the deployed application.](https://seacrest3.github.io/Bootstrap-Portfolio/)
+
+* [The URL of the GitHub repository.](https://github.com/seacrest3/seacrest-react-portfolio.git)
+
+---
+
+## Helpful Resources
+
+- [Reactjs.org](https://reactjs.org/docs/introducing-jsx.html)
+
+- [React Depolyment](https://create-react-app.dev/docs/deployment/#github-pages)
+
+- [React - All The Pieces](https://gist.github.com/jdtdesigns/936839ea2cea6b4d3193b520c750a09b)
+
+- [egghead.io](https://egghead.io/courses/build-a-name-picker-app-intro-to-react-hooks-context-api-1ded)
+
+- [Netlify](https://www.netlify.com/)
+
+- [React app deployment with GitHub](https://create-react-app.dev/docs/deployment/#github-pages)
+
+- [freeCodeCamp.org](https://www.freecodecamp.org/)
+
+- [Github Pages Guide](https://pages.github.com/)
