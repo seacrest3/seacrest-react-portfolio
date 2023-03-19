@@ -4,13 +4,14 @@ import { useState } from "react";
 const styles = {
   header: {
     textAlign: 'center',
-    margin: '20px 0'
+    margin: '20px 0',
+    color: '#2777F0',
   },
 
   submitBtn: {
-    backgroundColor: 'lightseagreen',
+    backgroundColor: '#2777F0',
     color: '#fff',
-    cursor: 'pointer'
+    cursor: 'pointer',
   }
 };
 

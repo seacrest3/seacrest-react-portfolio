@@ -9,8 +9,8 @@ function Navbar() {
       <Link className="navbar-brand" to="/">
         React Portfolio
       </Link>
-      <div className="container">
-        <ul className="navbar-nav">
+      <div className="container collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav mr-auto">
           <li className="nav-item">
             <NavLink
               to="/"
