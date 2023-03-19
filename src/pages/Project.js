@@ -8,13 +8,14 @@ function Project() {
   return (
     <Wrapper>
       <Title>Project Portfolio</Title>
-      {ProjectGallery.map((ProjectGallery) => {
+      {ProjectGallery.map((project) => {
         return (
           <ProjectCard
-            name={ProjectGallery.name}
-            image={ProjectGallery.image}
-            website={ProjectGallery.website}
-            github={ProjectGallery.github}
+            key={project.id}
+            name={project.name}
+            image={project.image}
+            website={project.website}
+            github={project.github}
           />
         );
       })}
