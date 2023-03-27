@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/seacrest-react-portfolio/static/css/main.9a021336.css",
-    "main.js": "/seacrest-react-portfolio/static/js/main.a6fe6319.js",
+    "main.css": "/seacrest-react-portfolio/static/css/main.b5fee22d.css",
+    "main.js": "/seacrest-react-portfolio/static/js/main.554d10c8.js",
     "static/media/online-reputation-management.jpg": "/seacrest-react-portfolio/static/media/online-reputation-management.7b3c2e0ba163be67e62b.jpg",
     "static/media/picture-1a.png": "/seacrest-react-portfolio/static/media/picture-1a.342cad5037a2472ce34c.png",
     "index.html": "/seacrest-react-portfolio/index.html",
-    "main.9a021336.css.map": "/seacrest-react-portfolio/static/css/main.9a021336.css.map",
-    "main.a6fe6319.js.map": "/seacrest-react-portfolio/static/js/main.a6fe6319.js.map"
+    "main.b5fee22d.css.map": "/seacrest-react-portfolio/static/css/main.b5fee22d.css.map",
+    "main.554d10c8.js.map": "/seacrest-react-portfolio/static/js/main.554d10c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a021336.css",
-    "static/js/main.a6fe6319.js"
+    "static/css/main.b5fee22d.css",
+    "static/js/main.554d10c8.js"
   ]
 }
