@@ -2,42 +2,42 @@
   {
     "id": 1,
     "name": "Weather Dashboard",
-    "image": "/seacrest-react-portfolio/images/weatherforecast.png",
+    "image": "/images/weatherforecast.png",
     "website": "https://seacrest3.github.io/Seacrest-Weather-Dashboard/",
     "github": "https://github.com/seacrest3/Seacrest-Weather-Dashboard.git"
   },
   {
     "id": 2,
     "name": "Horiseon Webpage",
-    "image": "/seacrest-react-portfolio/images/horiseon-webpage-mock-up.png",
+    "image": "/images/horiseon-webpage-mock-up.png",
     "website": "https://seacrest3.github.io/horiseon-webpage/",
     "github": "https://github.com/seacrest3/horiseon-webpage.git"
   },
   {
     "id": 3,
     "name": "Bootstrap Portfolio",
-    "image": "/seacrest-react-portfolio/images/bootstrap-portfolio-mockup.png",
+    "image": "/images/bootstrap-portfolio-mockup.png",
     "website": "https://seacrest3.github.io/Bootstrap-Portfolio/",
     "github": "https://github.com/seacrest3/Bootstrap-Portfolio.git"
   },
   {
     "id": 4,
     "name": "Password Generator",
-    "image": "/seacrest-react-portfolio/images/05-javascript-challenge-demo.png",
+    "image": "/images/05-javascript-challenge-demo.png",
     "website": "https://seacrest3.github.io/Password-Generator/",
     "github": "https://github.com/seacrest3/Password-Generator.git"
   },
   {
     "id": 5,
     "name": "Work Day Scheduler",
-    "image": "/seacrest-react-portfolio/images/day-planner.gif",
+    "image": "/images/day-planner.gif",
     "website": "https://seacrest3.github.io/Seacrest-Day-Planner/",
     "github": "https://github.com/seacrest3/Seacrest-Day-Planner.git"
   },
   {
     "id": 6,
     "name": "Code Quiz Challenge",
-    "image": "/seacrest-react-portfolio/images/Coding-Quiz.gif",
+    "image": "/images/Coding-Quiz.gif",
     "website": "https://seacrest3.github.io/Code-Quiz/",
     "github": "https://github.com/seacrest3/Code-Quiz.git"
   }
