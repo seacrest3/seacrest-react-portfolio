@@ -9,7 +9,7 @@ function Footer() {
         <a href="tel:+44 7716876577" title="+44 1869 168168"><img className="contactImage" src="/images/phone.png" alt="phone logo"/></a>
       </div>
       <div className="col-lg-1 col-md-2 col-sm-2">
-        <a href="mailhref:o7716442@gmail.com" title="o7716442@gmail.com"><img className="contactImage" src="/images/email.png" alt="email logo"/></a>
+        <a href="mailto:o7716442@gmail.com" title="o7716442@gmail.com"><img className="contactImage" src="/images/email.png" alt="email logo"/></a>
       </div>
       <div className="col-lg-1 col-md-2 col-sm-2">
         <a href="https://github.com/seacrest3" title="https://github.com/seacrest3"><img className="contactImage" src="/images/github.png" alt="GitHub logo"/></a>
