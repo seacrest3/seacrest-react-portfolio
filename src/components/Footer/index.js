@@ -1,26 +1,30 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone, faEnvelope, faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
 import "./style.css";
 
 function Footer() {
+
+  const contact = [
+    { name: 'Telephone', url: 'tel:+44 7716876577', icon: faPhone },
+    { name: 'Email', url: 'mailto:o7716442@gmail.com', icon: faEnvelope },
+    { name: 'LinkedIn', url: 'https://hk.linkedin.com/in/kelvin-lee-8a9929146', icon: faLinkedinIn },
+    { name: 'GitHub', url: 'https://github.com/seacrest3', icon: faGithub },
+    { name: 'CV', url: 'https://drive.google.com/file/d/1zClOUx388Hq16WJjxkTDxobbfCcNBpbP/view?usp=share_link', icon: faCoffee },
+  ];
   return (
     <footer className="footer">
       <span>Lamda 2023</span>
-      <div className="col-lg-1 col-md-2 col-sm-2">
-        <a href="tel:+44 7716876577" title="+44 1869 168168"><img className="contactImage" src="/images/phone.png" alt="phone logo"/></a>
-      </div>
-      <div className="col-lg-1 col-md-2 col-sm-2">
-        <a href="mailto:o7716442@gmail.com" title="o7716442@gmail.com"><img className="contactImage" src="/images/email.png" alt="email logo"/></a>
-      </div>
-      <div className="col-lg-1 col-md-2 col-sm-2">
-        <a href="https://github.com/seacrest3" title="https://github.com/seacrest3"><img className="contactImage" src="/images/github.png" alt="GitHub logo"/></a>
-      </div>
-      <div className="col-lg-1 col-md-2 col-sm-2">
-        <a href="https://hk.linkedin.com/in/kelvin-lee-8a9929146" title="https://hk.linkedin.com/in/kelvin-lee-8a9929146"><img className="contactImage" src="/images/LinkedIn.png" alt="LinkedIn logo"/></a>
-      </div>
-      <div className="col-lg-1 col-md-2 col-sm-2">
-        <a href="https://drive.google.com/file/d/1zClOUx388Hq16WJjxkTDxobbfCcNBpbP/view?usp=share_link" title="https://drive.google.com/file/d/1zClOUx388Hq16WJjxkTDxobbfCcNBpbP/view?usp=share_link"><img className="contactImage" src="/images/resume.png" alt="Resume logo"/></a>
-      </div>
+      {contact.map((link) => (
+        <ul className="col-lg-1 col-md-2 col-sm-2">
+          <a href={link.url} target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={link.icon} className="contactImage" />
+          </a>
+        </ul>
+      ))}
     </footer>
   );
 }
+
 export default Footer;
