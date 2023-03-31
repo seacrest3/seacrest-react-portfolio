@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faEnvelope, faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faPhone, faEnvelope, faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
 import "./style.css";
 
@@ -11,7 +11,7 @@ function Footer() {
     { name: 'Email', url: 'mailto:o7716442@gmail.com', icon: faEnvelope },
     { name: 'LinkedIn', url: 'https://hk.linkedin.com/in/kelvin-lee-8a9929146', icon: faLinkedinIn },
     { name: 'GitHub', url: 'https://github.com/seacrest3', icon: faGithub },
-    { name: 'CV', url: 'https://drive.google.com/file/d/1zClOUx388Hq16WJjxkTDxobbfCcNBpbP/view?usp=share_link', icon: faCoffee },
+    { name: 'CV', url: 'https://drive.google.com/file/d/1zClOUx388Hq16WJjxkTDxobbfCcNBpbP/view?usp=share_link', icon: faFileAlt }
   ];
   return (
     <footer className="footer">
